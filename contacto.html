@@ -1,24 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
-  <title>Digital House</title>
-</head>
-<body>
-  <div class="container">
-    <header class="encabezado">
-      <nav>
-        <ul>
-          <li><a href="index.html">home</a></li>
-          <li><a href="productos.html">productos</a></li>
-          <li><a href="contacto.html">contacto</a></li>
-        </ul>
-      </nav>
-    </header>
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Digital House</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="encabezado">
+        <nav>
+          <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="productos.html">productos</a></li>
+            <li><a href="contacto.html">contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <form class="fomulario" action="contacto.html" method="post">
+      <label for="">Nombre</label><input type="text" name="Nombre" value="" required><br>
+      <label for="">Apellido</label><input type="text" name="Apellido" value="" required><br>
+      <label for="">e-mail</label><input type="email" name="e-mail" value="" required><br>
+      <label for="">Deje su consulta</label><input type="text" name="Deje su consulta" value="" required><br><br>
+      <button type="submit" name="Enviar">Enviar</button><button type="reset" name="Cancelar">Cancelar</button>
+    </form>
+  </body>
 </html>
